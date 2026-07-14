@@ -1,14 +1,14 @@
 
-## Writing to a file 
+# Writing to a file 
 
-# with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "w") as f:
-#     f.write("Hello World...")
+with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "w") as f:
+    f.write("Hello World...")
 
 
 
-# lines = ["hello\n", "people\n", "welcome\n"]
-# with open("/Users/jaspreetuppal/Desktop/pythonB.txt", "w") as f:
-#     f.writelines(lines)
+lines = ["hello\n", "people\n", "welcome\n"]
+with open("/Users/jaspreetuppal/Desktop/pythonB.txt", "w") as f:
+    f.writelines(lines)
 
 
 ## reading a file
@@ -48,9 +48,9 @@
 
 ## working with binary files
 
-with open("/Users/jaspreetuppal/Downloads/helper.png", "rb") as f:
-    data = f.read()
-    print(data)
+# with open("/Users/jaspreetuppal/Downloads/helper.png", "rb") as f:
+#     data = f.read()
+#     print(data)
 
 # with open("/Users/jaspreetuppal/Downloads/helper.png", "wb") as f:  
 #     f.write(data)
