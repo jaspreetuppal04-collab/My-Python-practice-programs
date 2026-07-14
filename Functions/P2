@@ -1,0 +1,17 @@
+def calculator(a, b, operation):
+    if operation == "+":
+        return a+b
+    if operation == "-":
+        return a-b
+    if operation == "*":
+        return a*b
+    if operation == "/":
+        return a/b
+    
+num1 = float(input("Enter a: "))
+num2 = float(input("Enter b: "))
+op = input("Enter operation: ")
+
+print("result = ", calculator(num1,num2,op))
+
+    

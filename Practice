@@ -1,0 +1,78 @@
+# import calendar
+
+# #print (calendar.TextCalendar(firstweekday=6).formatyear(2015))
+
+# month, day, year = map(int, input().split())
+
+# day_index = calendar.weekday(year,month,day)
+
+# print(calendar.day_name[day_index]) #input as month, day, year
+
+
+# from itertools import product
+
+# A = list(map(int, input().split()))
+# B = list(map(int, input().split()))
+
+# print(*product(A,B))
+
+# from itertools import permutations
+
+
+# S, k = input().split()
+# k = int(k)
+
+# for i in sorted(permutations(S, k)):
+#     print(''.join(i))
+
+# from itertools import combinations
+
+# S, k = input().split()
+# k = int(k)
+
+# S = sorted(S)
+
+# for i in range(1, k + 1):
+#     for j in combinations(S, i):
+#         print(''.join(j))
+
+# 
+
+
+# from collections import Counter
+
+# x = int(input())
+
+# sizes = list(map(int, input().split()))
+# shoes = Counter(sizes)
+
+# n = int(input())
+
+# money = 0
+
+# for _ in range(n):
+#     size, price = map(int, input().split())
+
+#     if shoes[size] > 0:
+#         money += price
+#         shoes[size] -= 1
+
+# print(money) 
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+
+# N = int(input())
+# for i in range (N):
+#     roll_nos1 =input()
+    
+# M = int(input())
+# for i in range (M):
+#     roll_nos2 =input()
+    
+
+#     print( roll_nos1 & roll_nos2)
+    
+
+
+

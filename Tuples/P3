@@ -1,0 +1,8 @@
+t = (10, 20, 30, 40, 50)
+
+x = int(input("Enter element to find: "))
+
+if x in t:
+    print("Index of", x, "is", t.index(x))
+else:
+    print("Element not found in tuple")

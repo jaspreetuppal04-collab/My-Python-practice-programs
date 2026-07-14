@@ -1,0 +1,32 @@
+students = {
+    "Rahul":20,
+    "Shwet":2,
+    "Raj":18,
+    "Ravi":8,
+    "David":19,
+}
+
+print(students)
+
+#access
+print("Marks of student 2: ", students["Raj"])
+
+#add
+students["Rohit"] = 10
+print("Dictionary after updating Rohit: ", students)
+
+#update
+students["Shwet"] = 6
+print("Dictionary after updating Shwet marks: ", students)
+
+#delete
+students.pop("David")
+print("Dictionary after removing David: ", students, "\n")
+
+#sort by keys
+for key in sorted(students):
+    print( key, ":", students[key])
+
+#max/min
+print("\nMaximum value:", max(students.values()))
+print("Minimum value:", min(students.values()))

@@ -1,0 +1,57 @@
+
+## Writing to a file 
+
+# with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "w") as f:
+#     f.write("Hello World...")
+
+
+
+# lines = ["hello\n", "people\n", "welcome\n"]
+# with open("/Users/jaspreetuppal/Desktop/pythonB.txt", "w") as f:
+#     f.writelines(lines)
+
+
+## reading a file
+
+# with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "r") as f:
+#     content1 = f.read()
+#     print(content1)
+
+# with open("/Users/jaspreetuppal/Desktop/pythonB.txt", "r") as f:
+#     content2 = f.readlines()
+#     print(content2)
+
+
+
+## appending a file
+
+# with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "a") as f:
+#     f.write("\nnew entry")
+
+# with open("/Users/jaspreetuppal/Desktop/pythonB.txt", "a") as f:
+#     f.write("\nnew entry")
+
+
+## opening and closing a file
+
+#method 1
+# file = open("/Users/jaspreetuppal/Desktop/pythonP.txt", "r")
+# data = file.read()
+# print(data)
+# file.close()
+
+#method 2
+# with open("/Users/jaspreetuppal/Desktop/pythonP.txt", "r") as f:
+#     data = f.read()
+#     print(data)
+
+
+## working with binary files
+
+with open("/Users/jaspreetuppal/Downloads/helper.png", "rb") as f:
+    data = f.read()
+    print(data)
+
+# with open("/Users/jaspreetuppal/Downloads/helper.png", "wb") as f:  
+#     f.write(data)
+#     print(data)

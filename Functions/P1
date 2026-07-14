@@ -1,0 +1,6 @@
+def greet(name):
+    print("Hello", name)
+
+person = input("Enter a name: ")
+greet(person)
+

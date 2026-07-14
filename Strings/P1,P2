@@ -1,0 +1,13 @@
+string = "hello, world "
+
+print(string.strip(),".")
+
+print("All vowels are: ")
+for i in string:
+    if i in ["a", "e", "i", "o", "u"]:
+        print(i)
+
+print("\nAll consonants are: ")
+for i in string:
+    if i not in ["a", "e", "i", "o", "u"]:
+        print(i)

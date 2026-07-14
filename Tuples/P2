@@ -1,0 +1,4 @@
+my_tuple = (10,20,30,40)
+l1 = list(tuple)
+
+print(l1)

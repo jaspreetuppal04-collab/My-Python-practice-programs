@@ -1,0 +1,13 @@
+my_tuple = (10, 20, 30, 20, 40, 20)
+
+element = int(input("Enter element to count its occurrences: "))
+
+print("Occurences: ", my_tuple.count(element))
+
+repeated = []
+
+for item in my_tuple:
+    if my_tuple.count(item) > 1 and item not in repeated:
+        repeated.append(item)
+
+print("Repeated elements: ", repeated)

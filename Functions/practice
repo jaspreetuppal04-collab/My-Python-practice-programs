@@ -1,0 +1,16 @@
+def power(base, exp=2):
+    return base ** exp
+print(power(3))
+print(power(3, 10))
+
+# *args
+def total(*nums):
+    return sum(nums)
+print(total(1,2,3,4,5))
+
+# **kwargs
+def info(**kwargs):
+    for k,v in kwargs.items():
+        print(f"{k}, {v}")
+
+info(Name ="Bob", age =22, city ="Delhi")

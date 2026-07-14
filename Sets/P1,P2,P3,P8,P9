@@ -1,0 +1,23 @@
+# numbers1 = {10, 20, 30, 40, 50}
+# numbers2 = {20,100,200,10,400}
+
+# print("Updated set:", numbers1)
+# print("Union: ", numbers1 | numbers2)
+# print("Intersection: ", numbers1 & numbers2)
+# print("Difference: ", numbers1 - numbers2)
+# print("Difference: ", numbers1 ^ numbers2)
+
+# numbers1.remove(50)
+# print("List after removing 50: ", numbers1)
+
+# numbers2.clear
+
+
+N = int(input())
+roll_nos1 = set(map(int, input().split()))
+
+M = int(input())
+roll_nos2 = set(map(int, input().split()))
+
+for i in sorted(roll_nos1 ^ roll_nos2):
+    print(sorted(i))

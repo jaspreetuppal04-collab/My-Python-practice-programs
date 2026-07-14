@@ -1,0 +1,7 @@
+string = "hello, world "
+
+var = len(string)
+print(var)
+
+
+print(string[::-1])

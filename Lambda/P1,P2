@@ -1,0 +1,11 @@
+add = lambda x : x+ 10
+
+num = int(input("Enter a number: "))
+print(add(num))
+
+
+mul = lambda x,y : x*y
+
+num1 = int(input("enter num1: "))
+num2 = int(input("enter num2: "))
+print(mul(num1,num2))

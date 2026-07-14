@@ -1,0 +1,20 @@
+string = "hello welcome bye"
+
+for item in set(string):
+    if string.count(item) > 1:
+        print(item,":",string.count(item))
+  
+
+words = string.split()
+
+longest = ""
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+        print(longest)
+
+
+count = len(words)
+print("Number of words: ", count)
+print("Substrings: ", words)
+

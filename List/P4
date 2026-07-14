@@ -1,0 +1,10 @@
+elements = [10,4,90,-2,5.5,99.9]
+
+print("Maximum: ", max(elements))
+print("Minimum: ", min(elements))
+
+number = elements[0:3] 
+print(number)
+
+print(elements[::2])
+

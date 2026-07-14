@@ -1,0 +1,13 @@
+mylist = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+for i in mylist:
+    if i in ["a", "e", "i", "o", "u"]:
+        print(i)
+
+
+rev = []
+for i in range(len(mylist) -1, -1, -1):
+    rev.append(mylist[i])
+
+print(rev)
+

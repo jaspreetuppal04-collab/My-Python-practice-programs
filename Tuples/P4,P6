@@ -1,0 +1,11 @@
+my_tuple = (60,30,5,40,25)
+
+print(max(my_tuple))
+print(min(my_tuple))
+
+num = int(input("Enter num to find in the tuple: "))
+
+if num in my_tuple:
+    print("Found")
+else:
+    print("Not in tuple")

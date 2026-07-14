@@ -1,0 +1,8 @@
+def largest(arr, n):
+    arr.sort(reverse=True)
+    return arr[n - 1]
+
+numbers = [12, 5, 8, 20, 15]
+n = int(input("Enter n: "))
+
+print(f"{n}th largest number is:", largest(numbers, n))

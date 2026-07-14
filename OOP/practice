@@ -1,0 +1,72 @@
+# class emp():
+#     name = "Heet Ved"
+
+# e1 = emp()
+# print(e1.name)
+# e2 = emp()
+# print(e2.name)
+
+
+# class emp():
+#     def hello(self):
+#         print("Hello world")
+# e1 = emp()
+# e1.hello()
+
+
+# class emp():
+#     company_name = "WorryQ"
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+# s1 = emp("Jaspreet", 20)
+# print(s1.name, s1.age)
+
+# s2 = emp("Het", 28)
+# print(s2.name, s2.age)
+
+# print(emp.company_name)
+
+
+
+# class emp():
+#     name = "WorryQ"
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+# s1 = emp("Jaspreet", 20)
+# print(s1.name, s1.age)
+
+# s2 = emp("Het", 28)
+# print(s2.name, s2.age)
+# print(emp.name)
+
+
+
+class student:
+    def __init__(self, fullName):
+        self.name = fullName
+    
+    def hello(self):
+        print("Hello", self.name)
+
+s1 = student("Het")
+s1.hello()
+
+
+
+
+class student:
+    college_name = "Nirma University"
+
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+
+    def welcome(self):
+        print("Welcome", self.name)
+
+s1 = student("Het", 90)
+s1.welcome()

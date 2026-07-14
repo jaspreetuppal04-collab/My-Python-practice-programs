@@ -1,0 +1,10 @@
+list = [10,150,200,50,100]
+
+total = sum(list)
+print(total)
+
+avg = sum(list) / len(list)
+print(avg)
+
+list.sort()
+print(list[-2])

@@ -1,0 +1,13 @@
+word = list(input("enter a word: "))
+
+vowels  = ""
+consonants = "" 
+
+for ch in word:
+    if ch in "aeiou":
+        vowels += ch
+    else:
+        consonants += ch
+    
+print(vowels)
+print(consonants)

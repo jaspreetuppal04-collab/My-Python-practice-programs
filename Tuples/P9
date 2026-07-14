@@ -1,0 +1,9 @@
+my_tuple = (10, 20, 30, 20, 40, 20)
+
+num = list(tuple(my_tuple))
+
+num.sort()
+
+number = tuple(list(num))
+print(number)
+

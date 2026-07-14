@@ -1,0 +1,9 @@
+dict1 = {"Name":"Raj", "Age":"20"}
+dict2 = {"Roll no":"10", "Marks":"90"}
+
+#for key in dict2:
+  #  dict1[key] = dict2[key]
+
+dict1.update(dict2)
+print("After merging 2 dictionaries: ", dict1)
+
