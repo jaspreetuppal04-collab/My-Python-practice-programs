@@ -1,0 +1,8 @@
+import numpy as np
+
+np.random.seed(0) #set seed
+
+np.random.random(3) #generate 3 rand floats btwn 0.0-1.0
+
+print(np.random.randint(0,11,3))
+

@@ -1,0 +1,28 @@
+import numpy as np
+
+v1 = np.array([1,2,3])
+v2 = np.array([4,6,8])
+
+print(np.dot(v1,v2))
+
+
+m1 = np. array([[1, 1, 1],
+                [1, 1, 1],
+                [1, 1, 2]])
+m2 = np.array([[1, -1, 3],
+               [1, 1, 6],
+               [3, 8, 9]])
+
+print(np.add(m1,m2))
+print("\n",np.subtract(m1,m2))
+
+print("\n",np.dot(m1,m2))
+#OR
+#print(m1@m2)
+
+
+matrix = np.array([[1, 4],
+                   [2, 5] ])
+
+print(np.linalg.inv(matrix))
+
