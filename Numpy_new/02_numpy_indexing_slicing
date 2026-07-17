@@ -1,0 +1,16 @@
+import numpy as np
+
+vector = np.array([1,2,3,4,5,6])
+matrix = np.array([[2,4,5],
+                   [4,5,6],
+                   [6,7,1]])
+
+print(vector[2])
+print(matrix[2,2])
+
+#matrix[rows, columns]
+print(vector[:]) #all elements
+print(vector[:3]) #all elements upto 3rd
+print(vector[-1]) #last element
+print(matrix[:2, :]) #first 2 rows and all columns of matrix
+print(matrix[:,1:2]) #column start with 1 and stop before column 2
