@@ -1,0 +1,26 @@
+import numpy as np
+
+matrix = np.array([[1,2,4,5],
+                   [4,5,6,8],
+                   [6,7,1,9]])
+
+add = lambda i : i +1000  #creating funn
+
+vectorized_add = np.vectorize(add) #to implement in every element of array
+print(vectorized_add(matrix))
+
+print(np.max(matrix))
+print(np.min(matrix))
+print(np.max (matrix, axis=0))#maximum element in each column
+print(np.max (matrix, axis=1))#maximum element in each row
+
+
+
+
+print(np.mean(matrix))
+print(np.var(matrix))
+print(np.std(matrix))
+
+print(np.mean(matrix,axis=0)) #mean value in each column
+
+print(matrix.T) #transpose of matrix
