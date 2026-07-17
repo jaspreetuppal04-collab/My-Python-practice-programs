@@ -1,18 +1,37 @@
-# Python Practice 
+# My Python Practice Programs
 
-This repository contains my Python practice programs while learning Python.
+A collection of Python programs created while learning core Python concepts and the NumPy library.
 
-## Topics
+## Topics Covered
 
-- Conditionals
+- Python Basics
+- Conditional Statements
 - Loops
-- Lists
-- Strings
-- Dictionaries
-- Sets
 - Functions
-- Lambda Functions
-- Object-Oriented Programming
+- Strings
+- Lists, Tuples, Sets & Dictionaries
 - File Handling
+- NumPy Arrays & Matrices
+- Matrix Operations
+- Linear Algebra
+- Random Number Generation
+- Practice Exercises
 
-These programs were written as part of my learning journey and college coursework.
+## Requirements
+
+- Python 3.x
+- NumPy
+- SciPy
+
+Install the required libraries:
+
+```bash
+pip install numpy scipy
+```
+
+## Purpose
+
+This repository is a collection of my Python practice programs for learning, revision, and improving problem-solving skills.
+
+---
+⭐ Feel free to explore the programs and use them for learning.
