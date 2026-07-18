@@ -1,0 +1,28 @@
+import numpy as np
+
+print(np.__version__)
+np.show_config()
+
+
+z = np.zeros(8)
+print(z)
+
+z[4] = 1
+print(z)
+
+a = np.arange(10,50)
+print(a)
+a = a[::-1] #reversing a matrix
+print(a)
+
+Z = np.zeros((10,10))
+print("%d bytes" % (Z.size * Z.itemsize))
+
+
+
+import numpy as np
+z = np.arange(9).reshape(3,3)
+print(z)
+
+a = np.nonzero([1,2,0,0,4,0])
+print(a)
