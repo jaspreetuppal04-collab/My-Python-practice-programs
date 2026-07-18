@@ -1,12 +1,12 @@
-# import calendar
+import calendar
 
-# #print (calendar.TextCalendar(firstweekday=6).formatyear(2015))
+#print (calendar.TextCalendar(firstweekday=6).formatyear(2015))
 
-# month, day, year = map(int, input().split())
+month, day, year = map(int, input().split())
 
-# day_index = calendar.weekday(year,month,day)
+day_index = calendar.weekday(year,month,day)
 
-# print(calendar.day_name[day_index]) #input as month, day, year
+print(calendar.day_name[day_index]) #input as month, day, year
 
 
 # from itertools import product
