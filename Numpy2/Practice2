@@ -1,0 +1,17 @@
+import numpy as np
+
+z1 = np.random.randint(0,10,10)
+print(z1)
+z2 = np.random.randint(0,10,10)
+print(z2)
+print(np.intersect1d(z1,z2),"\n")
+
+
+yesterday = np.datetime64('today', 'D') - np.timedelta64(1, 'D')
+today = np.datetime64('today', 'D')
+tomorrow = np.datetime64('today', 'D') + np.timedelta64(1, 'D')
+print(yesterday, today, tomorrow)
+
+z = np.arange('2026-07', '2026-08', dtype = 'datetime64[D]')
+print(z)
+

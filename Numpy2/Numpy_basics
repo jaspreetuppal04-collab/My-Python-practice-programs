@@ -19,10 +19,16 @@ Z = np.zeros((10,10))
 print("%d bytes" % (Z.size * Z.itemsize))
 
 
-
-import numpy as np
 z = np.arange(9).reshape(3,3)
 print(z)
 
 a = np.nonzero([1,2,0,0,4,0])
 print(a)
+
+z = np.zeros((5,5))
+z += np.arange(5)
+print("\n", z)
+
+p = np.random.random(10)
+p.sort()
+print(p)
