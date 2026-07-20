@@ -15,3 +15,17 @@ print(yesterday, today, tomorrow)
 z = np.arange('2026-07', '2026-08', dtype = 'datetime64[D]')
 print(z)
 
+a = np.random.randint(0,2,5)
+b = np.random.randint(0,2,5)
+print(a,b)
+equal = np.allclose(a,b)
+print("\n",equal)
+
+equal = np.array_equal(a,b)
+print(equal)
+
+
+Z = np.arange(10, dtype=np.float32)
+print (Z)
+Z = Z.astype(np.int32, copy=False)
+print(Z)
