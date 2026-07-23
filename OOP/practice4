@@ -1,109 +1,109 @@
 #inheritence
 
-# class car:
-#     @staticmethod
-#     def start():
-#         print("Car started...")
+class car:
+    @staticmethod
+    def start():
+        print("Car started...")
     
-#     @staticmethod
-#     def stop():
-#         print("Car stopped...")
+    @staticmethod
+    def stop():
+        print("Car stopped...")
 
-# class ToyotaCar(car):
-#     def __init__(self,name):
-#         self.name = name
+class ToyotaCar(car):
+    def __init__(self,name):
+        self.name = name
 
-# car1 = ToyotaCar("Fortuner")
-# car2 = ToyotaCar("Hyryder")
+car1 = ToyotaCar("Fortuner")
+car2 = ToyotaCar("Hyryder")
 
-# print(car1.name)
-# car1.start()
+print(car1.name)
+car1.start()
 
 
-## Multilevel inheritence
+# Multilevel inheritence
 
-# class car:
-#     @staticmethod
-#     def start():
-#         print("Car started...")
+class car:
+    @staticmethod
+    def start():
+        print("Car started...")
     
-#     @staticmethod
-#     def stop():
-#         print("Car stopped...")
+    @staticmethod
+    def stop():
+        print("Car stopped...")
 
-# class ToyotaCar(car):
-#     def __init__(self,brand):
-#         self.brand = brand
+class ToyotaCar(car):
+    def __init__(self,brand):
+        self.brand = brand
 
-# class Fortuner(ToyotaCar):
-#     def __init__(self,type):
-#         self.type = type
-
-
-# car1 = Fortuner("diesel")
-# car1.start()
+class Fortuner(ToyotaCar):
+    def __init__(self,type):
+        self.type = type
 
 
-## Multiple inheritence:
-
-# class A:
-#      varA ="Welcome to class A"
+car1 = Fortuner("diesel")
+car1.start()
 
 
-# class B:
-#      varB ="Welcome to class B"
+# Multiple inheritence:
 
-# class C(A,B):
-#      varC = "Welcome to class C"
-
-# c1 = (C)
-# print(c1.varA)
-# print(c1.varB)
-# print(c1.varA)
+class A:
+     varA ="Welcome to class A"
 
 
+class B:
+     varB ="Welcome to class B"
 
-##super method
+class C(A,B):
+     varC = "Welcome to class C"
 
-# class Car:
-#     def __init__(self,type):
-#         self.type = type
+c1 = (C)
+print(c1.varA)
+print(c1.varB)
+print(c1.varA)
 
-#     @staticmethod
-#     def start():
-#         print("Car started...")
+
+
+#super method
+
+class Car:
+    def __init__(self,type):
+        self.type = type
+
+    @staticmethod
+    def start():
+        print("Car started...")
     
-#     @staticmethod
-#     def stop():
-#         print("Car stopped...")
+    @staticmethod
+    def stop():
+        print("Car stopped...")
 
-# class ToyotaCar(Car):
+class ToyotaCar(Car):
 
-#     def __init__(self,name,type):
-#         super(). __init__(type)
-#         self.name = name
-#         super().start
+    def __init__(self,name,type):
+        super(). __init__(type)
+        self.name = name
+        super().start
 
-# car1 = ToyotaCar("Fortuner", "electric")
-# print(car1.type)
-
-
-## class method
-
-# class Person: 
-#     name = "anonymous"
-
-#     @classmethod
-#     def changeName(cls,name):
-#         cls.name = name
-
-# P1 = Person()
-# P1.changeName("rahul kumar")
-# print(P1.name)
-# print(Person.name)
+car1 = ToyotaCar("Fortuner", "electric")
+print(car1.type)
 
 
-##Property decorator
+# class method
+
+class Person: 
+    name = "anonymous"
+
+    @classmethod
+    def changeName(cls,name):
+        cls.name = name
+
+P1 = Person()
+P1.changeName("rahul kumar")
+print(P1.name)
+print(Person.name)
+
+
+#Property decorator
 
 class Student:
     def __init__(self, phy,chem,math):
